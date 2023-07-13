@@ -1,0 +1,96 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  font-family: "Rubik Bubbles", cursive;
+  text-align: center;
+  color: coral;
+  font-size: 3rem;
+}
+p {
+  color: white;
+}
+body {
+  height: 1000px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 4rem 0;
+}
+.quote-container {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 0 auto;
+
+  align-items: center;
+  justify-content: center;
+  padding-top: 4rem;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 25px 45px rgba(0, 0, 0, 0.2);
+  border-radius: 50px;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-right: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  position: relative;
+}
+
+.symbole1 {
+  left: 5%;
+  bottom: 95%;
+  position: absolute;
+}
+.quote-symbole {
+  width: 30px;
+  height: 30px;
+  background-color: coral;
+  position: relative;
+  border-radius: 0 10px 10px 0;
+}
+
+.quote-symbole::before {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 25px;
+  background-color: coral;
+  bottom: 80%;
+  left: 0%;
+  border-radius: 10px;
+}
+.symbole2 {
+  left: 15%;
+  bottom: 95%;
+  position: absolute;
+}
+.symbole3 {
+  right: 5%;
+  top: 95%;
+  position: absolute;
+}
+.symbole4 {
+  right: 15%;
+  top: 95%;
+  position: absolute;
+}
+
+button {
+  display: inline-block;
+  background-color: green;
+  padding: 1.5rem 2.5rem;
+  outline: 0;
+  color: white;
+  margin: 20px;
+  border: 2px solid solid;
+}
+
+q {
+  font-size: 2rem;
+}
+cite {
+  font-size: 1.2rem;
+}
